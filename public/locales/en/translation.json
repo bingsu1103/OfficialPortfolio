@@ -1,0 +1,123 @@
+{
+    "appHeader": {
+        "home": "Home",
+        "project": "Project",
+        "contact": "Contact",
+        "about": "About"
+    },
+    "introduce": {
+        "name": "Gia An",
+        "welcome": "WELCOME to my Portfolio!",
+        "speech": "I'm",
+        "myself1": "I am a web developer whose joy in creating products and passion starts with the first lines of code.",
+        "myself2": "Currently, I am looking for an IT ",
+        "myself2.1": "opportunity that I can apply my technical skills, gain hands-on experience, and contribute to real-world projects.",
+        "myself3": "Every project is a new journey – and I am always ready to learn more, do better and go further.",
+        "title": "LET ME INTRODUCE MYSELF",
+        "position": "internship",
+        "skill": "Skills",
+        "experience": "Experience",
+        "social": "Social"
+    },
+    "cv": {
+        "extraspeech": "GET MY CV HERE OR YOU CAN SCAN QR CODE",
+        "scan": "SCAN HERE"
+    },
+    "footer": {
+        "title": "DESIGNED AND BUILDED BY "
+    },
+    "about": {
+        "title": "BASIC INFORMATION",
+        "hello": "Hi, I'm ",
+        "hello2": " - a sophomore in college.",
+        "looking": "Currently, I am looking for an opportunity to apply for an internship in",
+        "web": " Front-End Web Development.",
+        "studying": "I have been studying ",
+        "studying2": " at ",
+        "major": "Information Technology",
+        "school": " VNU - Ho Chi Minh University of Science (HCMUS)",
+        "childhood": "Growing up in a tech-savvy environment, I've developed a fundamental understanding of IT",
+        "birthday": "11/03/2005",
+        "name": "NGO GIA AN",
+        "location": "Di An, HCM",
+        "linkedin": ""
+    },
+    "education": {
+        "title": "Education",
+        "student": "STUDENT",
+        "college": "COLLEGE STUDENT",
+        "school2": "NGUYEN DINH CHIEU GIFTED HIGH SCHOOL",
+        "school1": "VNU-HO CHI MINH UNIVERSITY OF SCIENCE",
+        "major1": "MAJOR IN INFORMATION TECHNOLOGY",
+        "major2": "MAJOR IN ENGLISH",
+        "present": "PRESENT"
+    },
+    "achieve": {
+        "title": "Certificate & Achievement",
+        "udemy": "UDEMY",
+        "f8": "F8",
+        "htmlcss": "HTML CSS PRO ",
+        "reactultimate": "REACT ULTIMATE ",
+        "reactprotypescript": "REACT PRO TYPESCRIPT ",
+        "reacttestfresher": "REACT TEST FRESHER ",
+        "score": "IELTS BAND SCORE",
+        "leetnum": "300+",
+        "leetcode": " LEETCODE PROBLEMS SOLVED APPROXIMATELY IN 90 ACTIVE DAYS",
+        "itclass": "QUALIFIED FOR ADMISSION TO",
+        "informatics": " INFORMATICS",
+        "itclass2": " CLASS IN HIGH SCHOOL",
+        "itprogram": "QUALIFIED FOR MOST OF",
+        "itrelated": " IT-RELATED",
+        "itprogram2": " PROGRAMS IN HCM CITY IN 2023 BASED ON NATIONAL EXAM RESULTS"
+    },
+    "formore": {
+        "content2": "A developer with a passion for music and the little joys in life. Occasionally sings and shares favorite moments on TikTok. Loves solo coding sessions at coffee workspace. Off-duty, either gaming or having party with friends.",
+        "content": "I consistently work with a high sense of responsibility and am fully dedicated to contributing my best efforts to achieve the organization’s objectives. With a passion for learning and a growth-oriented mindset, I continuously enhance my expertise and skills to meet job requirements. I believe that the adaptability and energy of youth will enable me to make meaningful contributions to the team while creating valuable opportunities for career advancement.",
+        "speech": "Work is responsibility - Learning is passion"
+    },
+    "project": {
+        "title": "Project",
+        "techtitle": "Technical: ",
+        "teamsizetitle": "Team size: ",
+        "roletitle": "Role:",
+        "descriptiontitle": "Description: ",
+        "project1": {
+            "title": "AI CHATBOT",
+            "tech": "React - Javascript, Tailwind, NodeJS, AntDesign, MongoDB",
+            "teamsize": "1",
+            "role": "Fullstack",
+            "description": "Developed an intelligent customer support chatbot using Google's Gemini API, capable of natural language processing and automated responses.",
+            "time": "30/4/2025 - 6/5/2025"
+        },
+        "project2": {
+            "title": "BOOK SALES MANAGEMENT",
+            "tech": "React - Typescript, Tailwind, NodeJS, AntDesign, MongoDB",
+            "teamsize": "2",
+            "role": "FE",
+            "description": "Develop a professional book sales management system with full CRUD functionality, integrated with online payment via VNPay gateway and a user-friendly interface.",
+            "time": "3/3/2025 - 30/4/2025"
+        },
+        "project3": {
+            "title": "MUSIC STREAMING WEB",
+            "tech": "React - Javascript, Tailwind, NodeJS, AntDesign, MongoDB",
+            "teamsize": "1",
+            "role": "Fullstack",
+            "description": "Designed and implemented a responsive music streaming website with playlist management, audio playback controls, and user authentication.",
+            "time": "3/6/2025 - ..."
+        },
+        "comment1": "LET ME KNOW YOUR REVIEW HERE",
+        "comment2": "I'M HEARING YOUR FEELINGS",
+        "comment3": "WRITE SOMETHING TO MARK THAT YOU HAVE VISITED HERE",
+        "send": "SEND",
+        "preview": "Preview",
+        "demo": "Demo"
+    },
+    "contact": {
+        "title": "Contact",
+        "techportfoliotitle": "THIS PORTFOLIO USING THE DEVELOPMENT BUILD OF",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "reply": "Reply"
+    }
+}

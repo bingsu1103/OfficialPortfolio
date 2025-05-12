@@ -1,0 +1,123 @@
+{
+    "appHeader": {
+        "brand": "Gia An",
+        "home": "Trang chủ",
+        "project": "Dự án",
+        "contact": "Liên hệ",
+        "about": "Về tác giả"
+    },
+    "introduce": {
+        "name": "Gia An",
+        "welcome": "Chào mừng đến với Portfolio!",
+        "speech": "Tôi là",
+        "myself1": "Tôi là một lập trình viên web với niềm vui khi tạo ra được sản phẩm và niềm đam mê bắt đầu từ những dòng code đầu tiên.",
+        "myself2": "Hiện tại, tôi đang tìm kiếm một vị trí ",
+        "myself2.1": " trong lĩnh vực CNTT để áp dụng các kỹ năng, tích lũy kinh nghiệm và đóng góp vào các dự án thực tế.",
+        "myself3": "Mỗi dự án là một hành trình mới – và tôi luôn sẵn sàng học thêm, làm tốt hơn và tiến xa hơn.",
+        "title": "GIỚI THIỆU BẢN THÂN",
+        "position": "thực tập sinh",
+        "skill": "Kĩ năng",
+        "experience": "Kinh nghiệm",
+        "social": "Mạng xã hội"
+    },
+    "cv": {
+        "extraspeech": "XEM CV CỦA TÔI TẠI ĐÂY HOẶC BẠN CÓ THỂ QUÉT MÃ QR",
+        "scan": "QUÉT Ở ĐÂY"
+    },
+    "footer": {
+        "title": "THIẾT KẾ VÀ XÂY DỰNG BỞI "
+    },
+    "about": {
+        "title": "THÔNG TIN CƠ BẢN",
+        "hello": "Xin chào, tên tôi là ",
+        "hello2": " - hiện là sinh viên đại học năm thứ 2.",
+        "looking": "Hiện tại, tôi đang tìm kiếm cơ hội cho vị trí thực tập sinh trong mảng",
+        "web": " Phát Triển Web",
+        "studying": "Tôi đang học ngành ",
+        "studying2": " tại ",
+        "major": "Công Nghệ Thông Tin",
+        "school": "Trường Đại Học Khoa Học Tự Nhiên - ĐHQGHCM (HCMUS)",
+        "childhood": "Lớn lên trong một môi trường am hiểu công nghệ, tôi đã phát triển được sự hiểu biết cơ bản về CNTT",
+        "birthday": "11/03/2005",
+        "name": "NGÔ GIA AN",
+        "location": "Dĩ An, HCM",
+        "linkedin": ""
+    },
+    "education": {
+        "title": "Học vấn",
+        "student": "HỌC SINH",
+        "college": "SINH VIÊN",
+        "school2": "THPT CHUYÊN NGUYỄN ĐÌNH CHIỂU",
+        "school1": "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN-ĐHQGHCM",
+        "major1": "NGÀNH CÔNG NGHỆ THÔNG TIN",
+        "major2": "CHUYÊN TIẾNG ANH",
+        "present": "HIỆN TẠI"
+    },
+    "achieve": {
+        "title": "Chứng chỉ & Thành tựu",
+        "udemy": "UDEMY",
+        "f8": "F8",
+        "htmlcss": "HTML CSS PRO ",
+        "reactultimate": "REACT ULTIMATE ",
+        "reactprotypescript": "REACT PRO TYPESCRIPT ",
+        "reacttestfresher": "REACT TEST FRESHER ",
+        "score": "ĐIỂM SỐ IELTS",
+        "leetcode": " BÀI ĐÃ GIẢI TRÊN NỀN TẢNG LEETCODE TRONG KHOẢNG 90 NGÀY",
+        "itclass": "ĐỦ ĐIỀU KIỆN ĐỖ VÀO LỚP CHUYÊN",
+        "informatics": " TIN",
+        "itclass2": " Ở THPT",
+        "itprogram": "ĐỦ ĐIỀU KIỆN ĐỖ HẦU HẾT CÁC NGÀNH LIÊN QUAN TỚI",
+        "itrelated": " CÔNG NGHỆ THÔNG TIN",
+        "itprogram2": " Ở HCM NĂM 2023 BẰNG ĐIỂM THI TỐT NGHIỆP"
+    },
+    "formore": {
+        "content2": "Là một lập trình viên nhưng tôi có niềm đam mê với âm nhạc và thích tận hưởng những thứ xung quanh. Tôi thỉnh thoảng hát và ghi lại những khoảnh khắc mà tôi yêu thích nhất chia sẻ lên Tiktok. Mỗi sáng tôi hay đi workspace coffee để code một mình và khi không code bạn có thể thấy tôi trên game hoặc tiệc tùng với những người bạn",
+        "content": "Tôi luôn làm việc với tinh thần trách nhiệm cao, sẵn sàng cống hiến hết mình để hoàn thành mục tiêu chung của tổ chức. Với niềm đam mê học hỏi và tư duy cầu tiến, tôi không ngừng nâng cao chuyên môn, kỹ năng để đáp ứng yêu cầu công việc. Tôi tin rằng sự linh hoạt của tuổi trẻ sẽ giúp tôi đóng góp hiệu quả cho đội nhóm và mở ra cơ hội thăng tiến xứng đáng trong sự nghiệp.",
+        "speech": "Công việc là trách nhiệm - Học hỏi là đam mê"
+    },
+    "project": {
+        "title": "Dự án",
+        "descriptiontitle": "Mô tả: ",
+        "roletitle": "Vai trò",
+        "techtitle": "Công nghệ: ",
+        "teamsizetitle": "Thành viên",
+        "project1": {
+            "title": "AI CHATBOT",
+            "tech": "React - Javascript, Tailwind, NodeJS, AntDesign, MongoDB",
+            "teamsize": "1",
+            "role": "Fullstack",
+            "description": "Phát triển chatbot hỗ trợ khách hàng thông minh sử dụng API Gemini của Google, có khả năng xử lý ngôn ngữ tự nhiên và phản hồi tự động.",
+            "time": "30/4/2025 - 6/5/2025"
+        },
+        "project2": {
+            "title": "BOOK SALES MANAGEMENT",
+            "tech": "React - Typescript, Tailwind, NodeJS, AntDesign, MongoDB",
+            "teamsize": "1",
+            "role": "FE",
+            "description": "Phát triển hệ thống quản lý bán sách chuyên nghiệp với đầy đủ các chức năng CRUD, kết hợp với hệ thống thanh toán trực tuyến qua cổng VNPay với giao diện thân thiện.",
+            "time": "3/3/2025 - 30/4/2025"
+        },
+        "project3": {
+            "title": "MUSIC STREAMING WEB",
+            "tech": "React - Javascript, Tailwind, NodeJS, AntDesign, MongoDB",
+            "teamsize": "1",
+            "role": "Fullstack",
+            "description": "Thiết kế và xây dựng website nghe nhạc trực tuyến có tính năng đáp ứng (responsive), bao gồm quản lý playlist, điều khiển phát nhạc và xác thực người dùng.",
+            "time": "3/6/2025 - ..."
+        },
+        "comment1": "CHO TÔI BIẾT CẢM NHẬN CỦA BẠN Ở ĐÂY",
+        "comment2": "TÔI VẪN ĐANG LẮNG NGHE BẠN",
+        "comment3": "VIẾT ĐIỀU GÌ ĐÓ ĐỂ TÔI BIẾT RẰNG BẠN ĐÃ ĐẾN ĐÂY",
+        "send": "GỬI",
+        "preview": "Xem trước",
+        "demo": "Xem thử"
+    },
+    "contact": {
+        "title": "Liên hệ",
+        "techportfoliotitle": "MẪU PORTFOLIO NÀY ĐƯỢC XÂY DỰNG BẰNG",
+        "name": "Họ và tên",
+        "email": "Email",
+        "phone": "Số điện thoại",
+        "reply": "Lời nhắn"
+    }
+}

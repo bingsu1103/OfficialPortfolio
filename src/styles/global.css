@@ -1,0 +1,312 @@
+@import "tailwindcss";
+
+[data-bs-theme="light"] {
+    --background-color: #F2F4F7;
+    --text-color: #000000;
+    --header-bg: #f8f9fa;
+    --header-text: #212529;
+    --cursor-color: black;
+}
+
+[data-bs-theme="dark"] {
+    --background-image: linear-gradient(0, #0D1224, #000);
+    --text-color: #ffffff;
+    --header-bg: #000;
+    --header-text: #f8f9fa;
+    --span-text: #fff;
+    --cursor-color: white;
+}
+
+:root {
+    --text-red-500: #ff5f56;
+    --text-yellow-500: #ffbd2e;
+    --text-green-500: #27c93f;
+    --text-green-700: #56B10F;
+    --text-pink-100: #F96BCB;
+    --text-pink-200: #B520B1;
+    --text-white-0: #fff;
+}
+
+body {
+    background-image: var(--background-image);
+}
+
+.animated-border {
+    position: relative;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-clip: padding-box;
+    z-index: 0;
+}
+
+.animated-border::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ff5f56, #ffbd2e, #27c93f, #ff5f56);
+    z-index: -1;
+    animation: border-animation 3s linear infinite;
+}
+
+@keyframes border-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+nav {
+    background-color: var(--header-bg);
+    color: var(--header-text);
+}
+
+.typewriter {
+    width: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.typewriter>.text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(40) forwards;
+    border-right: 2px solid black;
+    animation: typing 2s steps(40) forwards, blinkCursor 0.7s steps(1) infinite, disappear 0.5s ease-in-out 2s forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinkCursor {
+
+    0%,
+    100% {
+        border-color: var(--cursor-color);
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+.greeting {
+    transform: rotate(20deg);
+    animation: spinner 1s infinite ease-in-out;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(50deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+.bounce-horizontal {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    animation: bounceHorizontal 4s ease-out infinite;
+}
+
+.bounce-horizontal2 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    animation: bounceHorizontal 3s ease-in-out infinite;
+}
+
+@keyframes bounceHorizontal {
+
+    0%,
+    100% {
+        transform: translateX(-25px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+.circle-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.circle-animation {
+    position: absolute;
+}
+
+.circle-animation:nth-child(1) {
+    top: 20%;
+    left: 20%;
+    animation: bounce 4s ease-in-out infinite;
+}
+
+.circle-animation:nth-child(2) {
+    top: 20%;
+    left: 48%;
+    animation: bounce 3s ease-in-out infinite;
+}
+
+.circle-animation:nth-child(3) {
+    top: 60%;
+    left: 35%;
+    animation: bounce 2s ease-in infinite;
+}
+
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.sql-card {
+    border-left: 4px solid #3aa675;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #fff;
+    white-space: pre;
+    overflow-x: auto;
+    position: relative;
+}
+
+.sql-keyword {
+    color: #FF6BCB;
+    font-weight: bold;
+}
+
+.sql-string {
+    color: #19F2B3;
+}
+
+.sql-comment {
+    color: #808080;
+    font-style: italic;
+}
+
+.sql-function {
+    color: #ff00ff;
+}
+
+.sql-operator {
+    color: #ff4500;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 18s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.shake-element {
+    animation: shake 2s linear infinite;
+}
+
+@keyframes spin-slow {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 6s linear infinite;
+}
+
+.container-slide {
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.react-spin {
+    animation: spin 3s linear infinite;
+}
