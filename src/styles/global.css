@@ -234,19 +234,30 @@ nav {
     color: #ff4500;
 }
 
-@keyframes marquee {
+.marquee-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.marquee-content {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 18s linear infinite;
+}
+
+@keyframes scroll-left {
     0% {
-        transform: translateX(0);
+        transform: translateX(0%);
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }
 
-.animate-marquee {
-    animation: marquee 18s linear infinite;
-}
+
+
 
 @keyframes shake {
     0% {
