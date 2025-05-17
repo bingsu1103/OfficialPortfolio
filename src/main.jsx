@@ -33,9 +33,7 @@ const router = createBrowserRouter(
 );
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <AppContextProvider>
-      <RouterProvider router={router} />
-    </AppContextProvider>
-  </StrictMode>,
+  <AppContextProvider>
+    <RouterProvider router={router} />
+  </AppContextProvider>
 )

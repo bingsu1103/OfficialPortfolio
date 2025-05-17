@@ -66,13 +66,6 @@ const CodePreView = () => {
                     <div>
                         <span className="ml-16 pl-3 text-[var(--text-blue-100)]">this.</span>
                         <span className="mr-2">problemSolver</span>
-                        <span className="text-[var(--text-blue-100)]">&amp;&amp;</span>
-                    </div>
-                    <div>
-                        <span className="ml-16 pl-3 text-[var(--text-blue-100)]">this.</span>
-                        <span className="mr-2">skills.length</span>
-                        <span className="mr-2 text-[var(--text-blue-100)]">&gt;=</span>
-                        <span className="text-[var(--text-red-500)]">5</span>
                     </div>
                     <div>
                         <span className="ml-12 mr-2">{`);`}</span>
