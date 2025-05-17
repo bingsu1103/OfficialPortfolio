@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 [data-bs-theme="light"] {
     --background-color: #F2F4F7;
     --text-color: #000000;
@@ -134,7 +135,7 @@ nav {
 
 .bounce-horizontal {
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 65%;
     animation: bounceHorizontal 4s ease-out infinite;
 }
@@ -143,6 +144,13 @@ nav {
     position: absolute;
     top: 65%;
     left: 10%;
+    animation: bounceHorizontal 3s ease-in-out infinite;
+}
+
+.bounce-horizontal3 {
+    position: absolute;
+    top: 15%;
+    right: 10%;
     animation: bounceHorizontal 3s ease-in-out infinite;
 }
 
@@ -172,13 +180,13 @@ nav {
 
 .circle-animation:nth-child(1) {
     top: 20%;
-    left: 20%;
+    left: 15%;
     animation: bounce 4s ease-in-out infinite;
 }
 
 .circle-animation:nth-child(2) {
     top: 20%;
-    left: 48%;
+    left: 42%;
     animation: bounce 3s ease-in-out infinite;
 }
 
@@ -186,6 +194,49 @@ nav {
     top: 60%;
     left: 35%;
     animation: bounce 2s ease-in infinite;
+}
+
+@keyframes shaka {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.circle-animation4 {
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    animation: bounceHorizontal 3s ease-in infinite;
+}
+
+.circle-animation5 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    animation: bounce 3s ease-in infinite;
+}
+
+.circle-animation6 {
+    position: absolute;
+    bottom: 0%;
+    right: 10%;
+    animation: shaka 0.5s linear infinite;
 }
 
 
